@@ -1,0 +1,24 @@
+{
+  "name": "techstars-full-stack-challenge",
+  "version": "1.0.0",
+  "description": "Full stack application with Express BE and React FE",
+  "main": "server/index.js",
+  "scripts": {
+    "test:client": "cd ./client && yarn test",
+    "test:server": "cd ./server && yarn test",
+    "start": "yarn build:fe && cd ./server && yarn start",
+    "build:fe": "cd ./client && yarn build"
+  },
+  "keywords": [
+    "express",
+    "server",
+    "backend",
+    "frontend",
+    "react"
+  ],
+  "author": "ghostfacekeila",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
